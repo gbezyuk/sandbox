@@ -2,6 +2,7 @@ echo "running sample pyunit test"
 cd tdd_samples
 coverage run pyunit.py
 coverage html pyunit.py
+pylint -f html pyunit.py > pylint-report.html
 cd ..
 
 echo "testing sample django project"
