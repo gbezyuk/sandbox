@@ -1,0 +1,9 @@
+echo "running sample pyunit test"
+python tdd_samples/pyunit.py
+
+echo "testing sample django project"
+cd sample_django_project
+sed s/sample-app/sample_django_project/ <buildout.cfg.sample >buildout.cfg
+python bootstrap.py
+bin/buildout
+bin/django validate
