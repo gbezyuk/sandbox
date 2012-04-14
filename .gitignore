@@ -1,10 +1,4 @@
-error.log
-buildout.cfg
-.installed.cfg
-bin**
-eggs**
-develop-eggs**
-parts**
+**error.log
 **.pyc**
 **.idea**
 **.sass-cache**

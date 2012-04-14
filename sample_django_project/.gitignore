@@ -1,0 +1,6 @@
+buildout.cfg
+.installed.cfg
+bin**
+eggs**
+develop-eggs**
+parts**
