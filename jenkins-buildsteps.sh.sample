@@ -1,5 +1,8 @@
 echo "running sample pyunit test"
-python tdd_samples/pyunit.py
+cd tdd_samples
+coverage run pyunit.py
+coverage html pyunit.py
+cd ..
 
 echo "testing sample django project"
 cd sample_django_project
