@@ -2,3 +2,7 @@ This repo is sort of my 'private' sandbox.
 
 Log:
 2012.04.14 14:00 For now I've tested github/jenkins integration. Git readonly repo + simple pyunit unittest. Works fine. Going deeper.
+2012.04.14 14:20 Basic django/buildout/jenkins integration passed
+2012.04.14 14:42 Coverage.py for sample pyunit test. Pylint is next.
+2012.04.14 14:47 Pylint says my code is awful. Fortunately, that code is not actually mine.
+2012.04.14 14:55 Now pylint is almost totally satisfied.
